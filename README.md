@@ -101,14 +101,8 @@ conda activate langgraph
 ### 2. Install dependencies
 
 ```bash
-pip install streamlit langgraph langgraph-checkpoint-sqlite \
-    langchain-core langchain-google-genai langchain-groq langchain-tavily \
-    langchain-community langchain-huggingface langchain-text-splitters \
-    faiss-cpu pypdf sentence-transformers torch torchvision \
-    python-dotenv pandas requests simpleeval pydantic
+pip install -r requirements.txt
 ```
-
-> `torchvision` is only there to stop a harmless file-watcher error in Streamlit. Make sure `torch` and `torchvision` are a matching pair.
 
 ### 3. Add your API keys
 
